@@ -15,6 +15,7 @@ class ShopButton extends StatelessWidget {
         backgroundColor: theme.colorScheme.primary,
         foregroundColor: theme.colorScheme.onPrimary,
         textStyle: theme.textTheme.labelLarge,
+        minimumSize: const Size(48, 48),
         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(2)),

@@ -1,17 +1,35 @@
-# washing_machine_doorstep_service
+# Sri Sai Durga Enterprises
 
-A new Flutter project.
+A Flutter web site for Sri Sai Durga Enterprises, a washing-machine and microwave-oven repair shop in Ramanthapur, Hyderabad. Shop facts live in `lib/content/owner_profile.dart`.
 
-## Getting Started
+Flutter 3.47.1 (Dart 3.13.1).
 
-This project is a starting point for a Flutter application.
+## Run on Chrome
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter run -d chrome
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Build web
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter build web
+```
+
+The output is `build/web`.
+
+## Change the shop details
+
+Edit only `lib/content/owner_profile.dart`. The pages read that file.
+
+- **Name.** `ownerName`
+- **Shop.** `shopName`
+- **Phone.** `phoneDisplay` and `phoneE164`. The dialer uses `phoneE164`.
+- **WhatsApp.** `whatsappDisplay`. The `wa.me` link uses `phoneE164`, so that number has to be the WhatsApp number.
+- **Email.** `email`
+- **Address.** `street`, `locality`, `city`, `state`, and `postalCode`
+- **Maps query.** No separate field. The Google Maps search uses the address built from those five fields.
+- **Hours.** `hours`: `daysOpen`, `opensAt`, `closesAt`, and `daysClosed`
+- **Areas.** `areas`
+- **Bio.** `intro`, `ownerRole`, `yearsExperience`, `claims`, `coverageCopy`, and `contactCopy`. The about text is built from the name, role, years, areas, and hours.
+- **Brands.** `brands`, `brandsCopy`, and `brandsNote`

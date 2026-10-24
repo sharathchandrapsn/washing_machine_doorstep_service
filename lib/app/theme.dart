@@ -76,6 +76,7 @@ ThemeData buildClearCycleTheme() {
   return ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
+    visualDensity: VisualDensity.standard,
     scaffoldBackgroundColor: ShopColors.paper,
     colorScheme: colorScheme,
     textTheme: textTheme,
@@ -84,6 +85,7 @@ ThemeData buildClearCycleTheme() {
         backgroundColor: ShopColors.accent,
         foregroundColor: ShopColors.paper,
         textStyle: textTheme.labelLarge,
+        minimumSize: const Size(48, 48),
         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(2)),

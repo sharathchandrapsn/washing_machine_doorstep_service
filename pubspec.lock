@@ -110,6 +110,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.5.2"
+  flutter_easy_seo:
+    dependency: "direct main"
+    description:
+      name: flutter_easy_seo
+      sha256: fb380eca1dcb4a1ec86fc2c49b0ac0f87587f01d5aa27606d95a74a578f2f4d0
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.1"
   flutter_lints:
     dependency: "direct dev"
     description:

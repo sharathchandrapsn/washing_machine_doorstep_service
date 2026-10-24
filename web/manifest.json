@@ -1,11 +1,11 @@
 {
-    "name": "ClearCycle Repairs",
-    "short_name": "ClearCycle",
+    "name": "Sri Sai Durga Enterprises",
+    "short_name": "SSDE",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F6F4EF",
     "theme_color": "#0E7C7B",
-    "description": "Doorstep washing-machine repair in Boduppal, run by Arun Mehta.",
+    "description": "Doorstep washing-machine and microwave-oven repair in Ramanthapur, Hyderabad, run by V. Rama Swamy.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

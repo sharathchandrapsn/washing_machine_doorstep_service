@@ -1,5 +1,5 @@
 name: washing_machine_doorstep_service
-description: "Doorstep washing-machine repair site for ClearCycle Repairs."
+description: "Doorstep washing-machine and microwave-oven repair site for Sri Sai Durga Enterprises."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -37,6 +37,7 @@ dependencies:
   go_router: ^18.1.1
   google_fonts: ^9.0.0
   url_launcher: ^6.3.3
+  flutter_easy_seo: ^1.2.1
 
 dev_dependencies:
   flutter_test:
@@ -59,6 +60,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/gallery/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
