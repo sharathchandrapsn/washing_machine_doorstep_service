@@ -197,7 +197,7 @@ void main() {
 
     expect(
       profile.whatsappUri.toString(),
-      'https://wa.me/919390495672?text=Hello+Sri+Sai+Durga+Enterprises.',
+      'https://wa.me/919390495572?text=Hello+Sri+Sai+Durga+Enterprises.',
     );
     expect(profile.mapsUri.host, 'www.google.com');
     expect(profile.mapsUri.path, '/maps/search/');
@@ -263,7 +263,7 @@ void main() {
     await tester.tap(find.text('Send on WhatsApp'));
     await tester.pumpAndSettle();
     expect(find.text('WhatsApp opened with your note.'), findsOneWidget);
-    expect(launchedUrl, contains('https://wa.me/919390495672'));
+    expect(launchedUrl, contains('https://wa.me/919390495572'));
     expect(launchedUrl, contains('Meera'));
     expect(launchedUrl, contains('9000012345'));
     expect(launchedUrl, contains('It+will+not+spin'));
